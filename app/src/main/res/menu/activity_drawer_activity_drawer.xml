@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reg"
+            android:icon="@drawable/profile_logo"
+            android:title="Make Profile" />
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact_us"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/email_us"
+            android:title="Emai Us" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_profiles"
+            android:icon="@drawable/profiles"
+            android:title="Profiles" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,74 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment1"
+    android:background="@drawable/shadi_masterbackground"
+    tools:context="com.example.inbsflhr21.shadimaster.log_in">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="Email"
+            android:id="@+id/et_email"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Log In"
+    android:layout_gravity="right"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:id="@+id/btn_login"
+    android:background="@android:color/white"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up instead"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/txtsignup"
+        />
+
+</LinearLayout>
